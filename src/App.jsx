@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { bg1, bg2, bg3, bg4 } from './assets/images'
 import phrases from './phrases.json';
-import './assets/App.css'
+import './App.css'
 import  indexRandom  from './assets/helpers/indexRandom'
 
 const images = [bg1, bg2, bg3, bg4];
