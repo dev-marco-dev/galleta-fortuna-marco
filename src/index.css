@@ -1,0 +1,81 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+*, * ::before, *::after {
+  box-sizing: inherit;
+
+}
+
+
+
+body {
+  margin: 0;
+  
+}
+
+p {
+  text-wrap:pretty;
+}
+
+h1,h2,h3,h4,h5,h6 {
+
+  text-wrap: balance;
+
+}
+
+img, video, svg {
+  max-width: 100%;
+  height: auto;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+button {
+  font-family: cursive;
+  font-size: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background: skyblue;
+  box-shadow: 0 0 5px skyblue,
+              0 0 25px skyblue;
+  transition: all 0.4s ease;
+  cursor: pointer;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+button:hover{
+  box-shadow: 0 0 5px skyblue,
+              0 0 25px skyblue,
+              0 0 50px skyblue,
+              0 0 100px skyblue,
+              0 0 200px skyblue;
+}
+
+@media (prefers-reduced-motion: reduce){
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition: none;
+  }
+}
+

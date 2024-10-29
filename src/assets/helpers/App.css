@@ -1,0 +1,54 @@
+#root{
+    height: 100vh;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: rigth;
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column; 
+    gap: .50em;
+    padding: 2em 0;
+}
+
+.heading {
+   font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: black;
+   text-align: center;
+   font-size: 3rem;
+   text-shadow: 5px 5px 20px;
+
+
+}
+
+.card{
+    background-image: url('rectangle1.svg');
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.card__body {
+font-family:cursive; 
+color:blue;
+font-size:20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 650px;
+height: 100%;
+padding: 0 2em;
+}
