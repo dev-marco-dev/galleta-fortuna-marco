@@ -31,7 +31,7 @@
 }
 
 .card{
-    background-image: url('rectangle1.svg');
+    background-image: url('/rectangle1.svg');
     width: 100%;
     aspect-ratio: 16/9;
     background-repeat: no-repeat;
